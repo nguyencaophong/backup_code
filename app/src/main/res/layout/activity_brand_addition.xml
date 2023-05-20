@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BrandAdditionActivity">
+
+    <fragment
+        android:id="@+id/fragmentTopBar"
+        class="com.application.wiselaptop.fragments.AdminTopBarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_admin_top_bar">
+    </fragment>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên hãng"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nhập tên hãng..."
+            android:textSize="18dp"
+            android:paddingLeft="8dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textColorHint="@color/middle_grey" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hình ảnh"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/flUploadImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivBrandAddition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:id="@+id/llUploadImageBrand"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center"
+                    android:text="Nhấn để tải ảnh lên"
+                    android:textColor="@color/middle_grey"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/ivBrandAdditionPattern"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/ic_upload" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="HOÀN THÀNH"
+            android:textSize="20dp"
+            android:backgroundTint="#ADE0FC"
+            android:id="@+id/btnAddBrandDone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

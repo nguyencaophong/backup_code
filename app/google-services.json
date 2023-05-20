@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "971212350067",
+    "firebase_url": "https://gio-hang-thanh-toan-default-rtdb.firebaseio.com",
+    "project_id": "gio-hang-thanh-toan",
+    "storage_bucket": "gio-hang-thanh-toan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971212350067:android:636dc9ba99dd183f66c006",
+        "android_client_info": {
+          "package_name": "com.application.wiselaptop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971212350067-hhjpsg0slarofja4pamsrui51vinri52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_9rme93t-dG-sf0s5wqWWyohFtu25NWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971212350067-hhjpsg0slarofja4pamsrui51vinri52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971212350067:android:bd9990cce17b308d66c006",
+        "android_client_info": {
+          "package_name": "com.ptithcm.giohangthanhtoan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971212350067-hhjpsg0slarofja4pamsrui51vinri52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_9rme93t-dG-sf0s5wqWWyohFtu25NWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971212350067-hhjpsg0slarofja4pamsrui51vinri52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

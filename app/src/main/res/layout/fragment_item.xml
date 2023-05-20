@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:id="@+id/fragmentItem" android:background="@drawable/bg_fragment_item" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/productSrcImage" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginRight="16dp" app:srcCompat="@drawable/ic_bell"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="16dp" android:id="@+id/tvProductName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="Tên sản phẩm"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp">
+            <TextView android:textSize="14dp" android:textColor="#c61a09" android:id="@+id/tvProductPrice" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Giá mới" android:layout_weight="1"/>
+            <TextView android:textSize="12dp" android:id="@+id/tvProductCost" android:background="@drawable/custom_item_old_cost" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Giá cũ" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:id="@+id/tvProductGroup" android:background="@drawable/custom_item_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nhóm sản phẩm"/>
+    </LinearLayout>
+</LinearLayout>
